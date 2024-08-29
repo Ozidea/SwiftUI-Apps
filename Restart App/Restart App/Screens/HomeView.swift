@@ -7,9 +7,13 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    
     // MARK: - PROPERTY
     
     @AppStorage("onboarding") var isOnboardingViewActive: Bool = false
+    @State private var isAnimating: Bool = false
+    
     
     // MARK: - BODY
     
@@ -26,6 +30,13 @@ struct HomeView: View {
                     .resizable()
                     .scaledToFit()
                     .padding()
+                    .offset(y: isAnimating ? -35 : 35)
+                    .animation(
+                        Animation
+                            .easeInOut(duration: 3)
+                            .repeatForever(),
+                        value: isAnimating
+                    )
                 
             }
             
@@ -43,21 +54,29 @@ struct HomeView: View {
             Spacer()
             
             Button(action: {
-                isOnboardingViewActive = true
+                withAnimation {
+                    isOnboardingViewActive = true
 
+                }
+                
             }) {
-              Image(systemName: "arrow.triangle.2.circlepath.circle.fill")
-                .imageScale(.large)
-              
-              Text("Restart")
-                .font(.system(.title3, design: .rounded))
-                .fontWeight(.bold)
+                Image(systemName: "arrow.triangle.2.circlepath.circle.fill")
+                    .imageScale(.large)
+                
+                Text("Restart")
+                    .font(.system(.title3, design: .rounded))
+                    .fontWeight(.bold)
             } //: BUTTON
             .buttonStyle(.borderedProminent)
             .buttonBorderShape(.capsule)
             .controlSize(.large)
             
         } //: VSTACK
+        .onAppear(perform: {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
+                isAnimating = true
+            })
+        })
     }
 }
 
