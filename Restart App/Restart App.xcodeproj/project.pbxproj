@@ -16,6 +16,7 @@
 		AE15B1CF2C7FCB820011694A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B1CE2C7FCB820011694A /* OnboardingView.swift */; };
 		AE15B1D12C7FCC3A0011694A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B1D02C7FCC3A0011694A /* HomeView.swift */; };
 		AE15B1D32C7FD8DC0011694A /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B1D22C7FD8DC0011694A /* CircleGroupView.swift */; };
+		AEB362F42C80CD5A00DDEEFD /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB362F32C80CD5A00DDEEFD /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AE15B1CE2C7FCB820011694A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		AE15B1D02C7FCC3A0011694A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AE15B1D22C7FD8DC0011694A /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+		AEB362F32C80CD5A00DDEEFD /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		AE15B1CC2C7FC9CF0011694A /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				AEB362F32C80CD5A00DDEEFD /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				AE15B1D12C7FCC3A0011694A /* HomeView.swift in Sources */,
 				AE15B1B12C7FC73F0011694A /* ContentView.swift in Sources */,
 				AE15B1AF2C7FC73F0011694A /* Restart_AppApp.swift in Sources */,
+				AEB362F42C80CD5A00DDEEFD /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Restart App/Preview Content\"";
+				DEVELOPMENT_TEAM = 582P4MKQ7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Restart-App-Info.plist";
@@ -353,6 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Restart App/Preview Content\"";
+				DEVELOPMENT_TEAM = 582P4MKQ7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Restart-App-Info.plist";
