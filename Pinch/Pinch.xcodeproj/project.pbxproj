@@ -55,8 +55,8 @@
 		AEB363002C80F1F900DDEEFD /* Pinch */ = {
 			isa = PBXGroup;
 			children = (
+				AEB42A1B2C81F1C300EA01CC /* Model */,
 				AEB42A142C80F3F500EA01CC /* Data */,
-				AEB42A132C80F3ED00EA01CC /* Model */,
 				AEB363102C80F3B800DDEEFD /* View */,
 				AEB363012C80F1F900DDEEFD /* PinchApp.swift */,
 				AEB3630F2C80F33C00DDEEFD /* Screen */,
@@ -91,18 +91,19 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		AEB42A132C80F3ED00EA01CC /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
 		AEB42A142C80F3F500EA01CC /* Data */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Data;
+			sourceTree = "<group>";
+		};
+		AEB42A1B2C81F1C300EA01CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
