@@ -18,7 +18,6 @@ struct ContentView: View {
             imageOffset = .zero
         }
     }
-    
     var body: some View {
         NavigationView{
             ZStack {
