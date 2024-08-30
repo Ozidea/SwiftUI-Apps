@@ -7,38 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE15B1802C7EF00A0011694A /* Hike_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B17F2C7EF00A0011694A /* Hike_AppApp.swift */; };
-		AE15B1822C7EF00A0011694A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B1812C7EF00A0011694A /* ContentView.swift */; };
-		AE15B1842C7EF00B0011694A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE15B1832C7EF00B0011694A /* Assets.xcassets */; };
-		AE15B18E2C7EF1D10011694A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B18D2C7EF1D10011694A /* CardView.swift */; };
-		AE15B1912C7EF32B0011694A /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B1902C7EF32B0011694A /* CustomBackgroundView.swift */; };
-		AE15B1962C7EFE650011694A /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B1952C7EFE650011694A /* CustomButtonView.swift */; };
-		AE15B1982C7F4F710011694A /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B1972C7F4F710011694A /* GradientButtonStyle.swift */; };
-		AE15B19A2C7F577C0011694A /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B1992C7F577C0011694A /* CustomCircleView.swift */; };
-		AE15B19C2C7F593C0011694A /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B19B2C7F593C0011694A /* MotionAnimationView.swift */; };
-		AE15B19F2C7F65BE0011694A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B19E2C7F65BE0011694A /* SettingsView.swift */; };
-		AE15B1A12C7F7EE90011694A /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B1A02C7F7EE90011694A /* CustomListRowView.swift */; };
-		AEB42A272C81FA5900EA01CC /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB42A262C81FA5900EA01CC /* ColorExtension.swift */; };
+		AE038B582C8223D500A96571 /* FructusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE038B572C8223D500A96571 /* FructusApp.swift */; };
+		AE038B5A2C8223D500A96571 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE038B592C8223D500A96571 /* ContentView.swift */; };
+		AE038B5C2C8223D600A96571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE038B5B2C8223D600A96571 /* Assets.xcassets */; };
+		AE038B5F2C8223D600A96571 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE038B5E2C8223D600A96571 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AE15B17C2C7EF00A0011694A /* Hike App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hike App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE15B17F2C7EF00A0011694A /* Hike_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike_AppApp.swift; sourceTree = "<group>"; };
-		AE15B1812C7EF00A0011694A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AE15B1832C7EF00B0011694A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AE15B18D2C7EF1D10011694A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		AE15B1902C7EF32B0011694A /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
-		AE15B1952C7EFE650011694A /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
-		AE15B1972C7F4F710011694A /* GradientButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
-		AE15B1992C7F577C0011694A /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
-		AE15B19B2C7F593C0011694A /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
-		AE15B19E2C7F65BE0011694A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		AE15B1A02C7F7EE90011694A /* CustomListRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
-		AEB42A262C81FA5900EA01CC /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		AE038B542C8223D500A96571 /* Fructus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fructus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE038B572C8223D500A96571 /* FructusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FructusApp.swift; sourceTree = "<group>"; };
+		AE038B592C8223D500A96571 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE038B5B2C8223D600A96571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE038B5E2C8223D600A96571 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AE15B1792C7EF00A0011694A /* Frameworks */ = {
+		AE038B512C8223D500A96571 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,101 +32,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AE15B1732C7EF00A0011694A = {
+		AE038B4B2C8223D500A96571 = {
 			isa = PBXGroup;
 			children = (
-				AE15B17E2C7EF00A0011694A /* Hike App */,
-				AE15B17D2C7EF00A0011694A /* Products */,
+				AE038B562C8223D500A96571 /* Fructus */,
+				AE038B552C8223D500A96571 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AE15B17D2C7EF00A0011694A /* Products */ = {
+		AE038B552C8223D500A96571 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE15B17C2C7EF00A0011694A /* Hike App.app */,
+				AE038B542C8223D500A96571 /* Fructus.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE15B17E2C7EF00A0011694A /* Hike App */ = {
+		AE038B562C8223D500A96571 /* Fructus */ = {
 			isa = PBXGroup;
 			children = (
-				AE15B1922C7EF4CE0011694A /* Utility */,
-				AE15B17F2C7EF00A0011694A /* Hike_AppApp.swift */,
-				AE15B19D2C7F65AC0011694A /* Screen */,
-				AE15B1832C7EF00B0011694A /* Assets.xcassets */,
-				AE15B18F2C7EF2BE0011694A /* Component */,
+				AE038B572C8223D500A96571 /* FructusApp.swift */,
+				AE038B592C8223D500A96571 /* ContentView.swift */,
+				AE038B5B2C8223D600A96571 /* Assets.xcassets */,
+				AE038B5D2C8223D600A96571 /* Preview Content */,
 			);
-			path = "Hike App";
+			path = Fructus;
 			sourceTree = "<group>";
 		};
-		AE15B18F2C7EF2BE0011694A /* Component */ = {
+		AE038B5D2C8223D600A96571 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				AE15B1A02C7F7EE90011694A /* CustomListRowView.swift */,
-				AE15B18D2C7EF1D10011694A /* CardView.swift */,
-				AE15B1902C7EF32B0011694A /* CustomBackgroundView.swift */,
-				AE15B1952C7EFE650011694A /* CustomButtonView.swift */,
-				AE15B1992C7F577C0011694A /* CustomCircleView.swift */,
-				AE15B19B2C7F593C0011694A /* MotionAnimationView.swift */,
+				AE038B5E2C8223D600A96571 /* Preview Assets.xcassets */,
 			);
-			path = Component;
-			sourceTree = "<group>";
-		};
-		AE15B1922C7EF4CE0011694A /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				AEB42A262C81FA5900EA01CC /* ColorExtension.swift */,
-				AE15B1972C7F4F710011694A /* GradientButtonStyle.swift */,
-			);
-			path = Utility;
-			sourceTree = "<group>";
-		};
-		AE15B19D2C7F65AC0011694A /* Screen */ = {
-			isa = PBXGroup;
-			children = (
-				AE15B1812C7EF00A0011694A /* ContentView.swift */,
-				AE15B19E2C7F65BE0011694A /* SettingsView.swift */,
-			);
-			path = Screen;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE15B17B2C7EF00A0011694A /* Hike App */ = {
+		AE038B532C8223D500A96571 /* Fructus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE15B18A2C7EF00B0011694A /* Build configuration list for PBXNativeTarget "Hike App" */;
+			buildConfigurationList = AE038B622C8223D600A96571 /* Build configuration list for PBXNativeTarget "Fructus" */;
 			buildPhases = (
-				AE15B1782C7EF00A0011694A /* Sources */,
-				AE15B1792C7EF00A0011694A /* Frameworks */,
-				AE15B17A2C7EF00A0011694A /* Resources */,
+				AE038B502C8223D500A96571 /* Sources */,
+				AE038B512C8223D500A96571 /* Frameworks */,
+				AE038B522C8223D500A96571 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Hike App";
-			productName = "Hike App";
-			productReference = AE15B17C2C7EF00A0011694A /* Hike App.app */;
+			name = Fructus;
+			productName = Fructus;
+			productReference = AE038B542C8223D500A96571 /* Fructus.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AE15B1742C7EF00A0011694A /* Project object */ = {
+		AE038B4C2C8223D500A96571 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					AE15B17B2C7EF00A0011694A = {
+					AE038B532C8223D500A96571 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = AE15B1772C7EF00A0011694A /* Build configuration list for PBXProject "Hike App" */;
+			buildConfigurationList = AE038B4F2C8223D500A96571 /* Build configuration list for PBXProject "Fructus" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,50 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = AE15B1732C7EF00A0011694A;
-			productRefGroup = AE15B17D2C7EF00A0011694A /* Products */;
+			mainGroup = AE038B4B2C8223D500A96571;
+			productRefGroup = AE038B552C8223D500A96571 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE15B17B2C7EF00A0011694A /* Hike App */,
+				AE038B532C8223D500A96571 /* Fructus */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AE15B17A2C7EF00A0011694A /* Resources */ = {
+		AE038B522C8223D500A96571 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE15B1842C7EF00B0011694A /* Assets.xcassets in Resources */,
+				AE038B5F2C8223D600A96571 /* Preview Assets.xcassets in Resources */,
+				AE038B5C2C8223D600A96571 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AE15B1782C7EF00A0011694A /* Sources */ = {
+		AE038B502C8223D500A96571 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE15B1822C7EF00A0011694A /* ContentView.swift in Sources */,
-				AE15B19A2C7F577C0011694A /* CustomCircleView.swift in Sources */,
-				AE15B1A12C7F7EE90011694A /* CustomListRowView.swift in Sources */,
-				AEB42A272C81FA5900EA01CC /* ColorExtension.swift in Sources */,
-				AE15B18E2C7EF1D10011694A /* CardView.swift in Sources */,
-				AE15B1802C7EF00A0011694A /* Hike_AppApp.swift in Sources */,
-				AE15B1962C7EFE650011694A /* CustomButtonView.swift in Sources */,
-				AE15B19F2C7F65BE0011694A /* SettingsView.swift in Sources */,
-				AE15B1982C7F4F710011694A /* GradientButtonStyle.swift in Sources */,
-				AE15B19C2C7F593C0011694A /* MotionAnimationView.swift in Sources */,
-				AE15B1912C7EF32B0011694A /* CustomBackgroundView.swift in Sources */,
+				AE038B5A2C8223D500A96571 /* ContentView.swift in Sources */,
+				AE038B582C8223D500A96571 /* FructusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AE15B1882C7EF00B0011694A /* Debug */ = {
+		AE038B602C8223D600A96571 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		AE15B1892C7EF00B0011694A /* Release */ = {
+		AE038B612C8223D600A96571 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -312,16 +264,15 @@
 			};
 			name = Release;
 		};
-		AE15B18B2C7EF00B0011694A /* Debug */ = {
+		AE038B632C8223D600A96571 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Hike App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Fructus/Preview Content\"";
+				DEVELOPMENT_TEAM = 582P4MKQ7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -334,7 +285,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.myorganization.Hike-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.Fructus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -342,16 +293,15 @@
 			};
 			name = Debug;
 		};
-		AE15B18C2C7EF00B0011694A /* Release */ = {
+		AE038B642C8223D600A96571 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Hike App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Fructus/Preview Content\"";
+				DEVELOPMENT_TEAM = 582P4MKQ7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -364,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.myorganization.Hike-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.Fructus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -375,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE15B1772C7EF00A0011694A /* Build configuration list for PBXProject "Hike App" */ = {
+		AE038B4F2C8223D500A96571 /* Build configuration list for PBXProject "Fructus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE15B1882C7EF00B0011694A /* Debug */,
-				AE15B1892C7EF00B0011694A /* Release */,
+				AE038B602C8223D600A96571 /* Debug */,
+				AE038B612C8223D600A96571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE15B18A2C7EF00B0011694A /* Build configuration list for PBXNativeTarget "Hike App" */ = {
+		AE038B622C8223D600A96571 /* Build configuration list for PBXNativeTarget "Fructus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE15B18B2C7EF00B0011694A /* Debug */,
-				AE15B18C2C7EF00B0011694A /* Release */,
+				AE038B632C8223D600A96571 /* Debug */,
+				AE038B642C8223D600A96571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AE15B1742C7EF00A0011694A /* Project object */;
+	rootObject = AE038B4C2C8223D500A96571 /* Project object */;
 }

@@ -60,7 +60,7 @@ struct InfoPanelView_Previews: PreviewProvider {
   static var previews: some View {
     InfoPanelView(scale: 1, offset: .zero)
       .preferredColorScheme(.dark)
-      .previewLayout(.sizeThatFits)
+
       .padding()
   }
 }
